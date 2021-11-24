@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deutscher-pfadfinderbund/aufdermauer.git"
+    "url": "git+https://github.com/dpbrs/homepage.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deutscher-pfadfinderbund/aufdermauer/issues"
+    "url": "https://github.com/dpbrs/homepage/issues"
   },
-  "homepage": "https://github.com/deutscher-pfadfinderbund/aufdermauer#readme",
+  "homepage": "https://github.com/dpbrs/homepage#readme",
   "dependencies": {
     "bootstrap": "^5.0.0-beta1",
     "lazy-youtube-embed": "^1.0.1"

@@ -17,7 +17,7 @@ jobs:
           username: n2o
           password: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
           registry: ghcr.io
-          repository: deutscher-pfadfinderbund/aufdermauer
+          repository: dpbrs/homepage
           # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
           tags: latest
           # Automatically tags the built image with the git reference as per the readme

@@ -1,10 +1,8 @@
-# Jungenschaft auf der Mauer
-
-Das ist das Repository der Speerjungenlagerjungenschaft auf der Mauer 2020+2021.
+# Homepage Deutscher Pfadfinderbund in Remscheid
 
 ## Inhalte bearbeiten
 
-Alle Texte befinden sich im Ordner [texte](texte). Bearbeitet dort `.md`-Dateien, haltet euch an das Markdown-Format und die Seite wird dann auch schön aussehen.
+Alle Texte befinden sich im Ordner [inhalte](inhalte). Bearbeitet dort `.md`-Dateien, haltet euch an das Markdown-Format und die Seite wird dann auch schön aussehen.
 Ihr könnt die Datei, die ihr editiert, im Browser auch direkt voranschauen, indem ihr auf `Preview` klickt.
 
 ## Entwicklung
@@ -27,7 +25,7 @@ Danach stehen HTML-Dateien zur Verfügung, die direkt im Browser oder per Webser
 
     docker run --rm -p 8080:80 -v "$PWD:/usr/share/nginx/html" nginx:alpine
 
-Danach steht die Seite unter http://localhost:8888 zur Verfügung.
+Danach steht die Seite unter http://localhost:8080 zur Verfügung.
 
 ### REPL
 
