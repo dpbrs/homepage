@@ -1,0 +1,6 @@
+.git/
+.idea/
+.github/
+.clj-kondo/
+.calva/
+.lsp/

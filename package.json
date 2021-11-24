@@ -1,0 +1,25 @@
+{
+  "name": "aufdermauer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bb site.clj",
+    "nginx": "docker run --rm -p 8080:80 -v \"$PWD:/usr/share/nginx/html\" nginx:alpine",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deutscher-pfadfinderbund/aufdermauer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deutscher-pfadfinderbund/aufdermauer/issues"
+  },
+  "homepage": "https://github.com/deutscher-pfadfinderbund/aufdermauer#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "lazy-youtube-embed": "^1.0.1"
+  }
+}
