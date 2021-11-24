@@ -10,7 +10,7 @@ RUN npm set progress=false && \
 
 # ------------------------------------------------------------------------------
 
-FROM borkdude/babashka AS BB
+FROM babashka/babashka AS BB
 
 WORKDIR /code
 
